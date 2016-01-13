@@ -8,11 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Hello Toshi</title>
   </head>
   <body>
+  <%
+    String text = "Hello Toshi, The current date is: " + new java.util.Date().toString();
+  %>
   <%=
-  new java.util.Date()
+  text
   %>
   </body>
 </html>
